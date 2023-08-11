@@ -28,14 +28,12 @@
     <p><em>For more examples, please refer to the <a href="https://github.com/your_username/your_project/wiki">Documentation</a></em></p>
   </div>
 
-  <!-- Add more sections as needed -->
-
 </div>
 
 <div class="section">
   <h2>Contact</h2>
-  <p>Your Name - <a href="mailto:email@example.com">email@example.com</a></p>
-  <p>Project Link: <a href="https://github.com/your_username/your_project">https://github.com/your_username/your_project</a></p>
+  <p>Your Name - <a href="mailto:technicalit55@gmail.com">technicalit55@gmail.com</a></p>
+  <p>Project Link: <a href="https://github.com/your_username/your_project">https://github.com/Phantomiman/</a></p>
 </div>
 </body>
 </html>
