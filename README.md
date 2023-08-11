@@ -1,3 +1,4 @@
+![image](https://github.com/Phantomiman/JSMindx/assets/119011920/b666b9b4-3c23-42c6-bcc8-6d754ce1f926)
 
 <body>
 <div class="header">
