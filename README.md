@@ -37,8 +37,6 @@
 JSMindx Repository
 A list of payloads that I generated in order to bypass some sanitizations and restrictions or avoid triggering alert.
 
-![image](https://github.com/Phantomiman/JSMindx/assets/119011920/b666b9b4-3c23-42c6-bcc8-6d754ce1f926)
-
 
 
 
