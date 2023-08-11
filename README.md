@@ -2,13 +2,10 @@
 JSMindx Repository
 A list of payloads that I generated in order to bypass some sanitizations and restrictions or avoid triggering alert.
 
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-||                    Made By Sami AKA Phantimoman                                                                 ||
-||                     Payloads made for educational purposes only                                     ||||||||||||||
-||                                                                                                                 ||
-||                                                                                                     ||||||||||||||
-||                                                                                                                 ||
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+![image](https://github.com/Phantomiman/JSMindx/assets/119011920/b666b9b4-3c23-42c6-bcc8-6d754ce1f926)
+
+
+
 
 1.Timeout usage with atob base64code decoding.
 
