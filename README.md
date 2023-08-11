@@ -52,8 +52,4 @@ To get a local copy up and running follow these simple example steps.
 - Prerequisite 1
 - Prerequisite 2
 
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your_username/your_project.git
+### Installatio
