@@ -19,13 +19,12 @@
   </ul>
 
   <div class="section">
-    <h2>Getting Started</h2>
+    <h2>The idea</h2>
     <p>Generated some payloads for bypassing sanitazion and restrictions of JS payloads for educational purposes.</p>
 
   <div class="section">
     <h2>Usage</h2>
-    <p>Show some examples of how your project can be used.</p>
-    <p><em>For more examples, please refer to the <a href="https://github.com/your_username/your_project/wiki">Documentation</a></em></p>
+    <p>In some of the payloads used JSfuck and UTF-8.jp site to obfuscate the payloads.</p>
   </div>
 
 </div>
