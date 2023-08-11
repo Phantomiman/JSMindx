@@ -13,9 +13,7 @@
 
   <h3>Built With</h3>
   <ul>
-    <li><a href="https://framework.com">Framework</a></li>
-    <li><a href="https://library.com">Library</a></li>
-    <li><a href="https://tool.com">Tool</a></li>
+    <li><a href="https://jsfuck.com/"> JSFUCK Framework</a></li>
   </ul>
 
   <div class="section">
